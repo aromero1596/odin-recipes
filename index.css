@@ -1,0 +1,35 @@
+body {
+    background-color: rgba(221, 157, 61, 0.662);
+}
+
+h1 ,h3 {
+    text-align: center;
+    font-family: COPPERPLATE, fantasy ;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h3 {
+   font-size: 16px;
+}
+.quote {
+    width:800px;
+    height: auto;
+}
+
+p, ul {
+    font-family: Helvetica, sans-serif ;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+ul {
+   font-size: 18px;
+   text-align: start;
+}
