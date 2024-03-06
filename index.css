@@ -14,10 +14,8 @@ h1 {
 h3 {
    font-size: 16px;
 }
-.quote {
-    width:800px;
-    height: auto;
-}
+
+
 
 p, ul {
     font-family: Impact, sans-serif ;
@@ -32,11 +30,35 @@ p {
 ul {
    font-size: 18px;
    text-align: start;
+   display: flex;
+   list-style: none;
+   align-content: center;
+   margin-left: 700px;
+   margin-right: 700px;
 }
-img {
-    align-items: center;
-    
+
+.quote {
     border: 2px solid black;
-    width: 400px;
-    height: auto;
+    width: 90%;
+    height: 600px;
+    margin-left: 7em;
+    margin-right: 3em;
 }
+
+
+
+.link-list a {
+    background-color: bisque;
+    display: inline-block;
+    color: #5d3300;
+    margin:10px;
+    margin-left: 3em;
+    padding:10px ;
+    border:2px solid #5d3300 ;
+    text-decoration: none;
+    
+}
+.link-list a:hover {
+    background-color: rgb(66 28 40);
+    color: #fff;
+  }
