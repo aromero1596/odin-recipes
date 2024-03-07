@@ -32,17 +32,10 @@ ul {
    text-align: start;
    display: flex;
    list-style: none;
-   align-content: center;
-   margin-left: 700px;
-   margin-right: 700px;
 }
 
 .quote {
     border: 2px solid black;
-    width: 90%;
-    height: 600px;
-    margin-left: 7em;
-    margin-right: 3em;
 }
 
 
@@ -51,9 +44,6 @@ ul {
     background-color: bisque;
     display: inline-block;
     color: #5d3300;
-    margin:10px;
-    margin-left: 3em;
-    padding:10px ;
     border:2px solid #5d3300 ;
     text-decoration: none;
     
