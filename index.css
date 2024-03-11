@@ -1,54 +1,50 @@
-body {
-    background-color: rgba(221, 157, 61, 0.662);
+* {
+    
+    box-sizing: border-box;
 }
+body {
+    box-sizing: border-box;
+    background-color: rgba(211, 125, 32, 0.579);
+    padding: 10px 50px;
+    margin: auto 50px;
+    }
 
-h1 ,h3 {
+h1,
+h3 {
     text-align: center;
-    font-family: COPPERPLATE, fantasy ;
+    font-family: COPPERPLATE, fantasy;    
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 40px;   
 }
 
 h3 {
-   font-size: 16px;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: -20px;
+    margin-bottom: 50px;
 }
 
+img {
+    box-sizing: border-box;
+    width: auto;   
+    height: auto;
+    margin: auto;
+}
 
+.text {
+    margin-top: 50px;
+}
+p,
+ul {
+    font-family: Helvetica, sans-serif;  
 
-p, ul {
-    font-family: Impact, sans-serif ;
-    font-weight: bold;
 }
 
 p {
-    font-size: 20px;
-    text-align: center;
-}
-
-ul {
-   font-size: 18px;
-   text-align: start;
-   display: flex;
-   list-style: none;
-}
-
-.quote {
-    border: 2px solid black;
+    font-weight: 600;
 }
 
 
-
-.link-list a {
-    background-color: bisque;
-    display: inline-block;
-    color: #5d3300;
-    border:2px solid #5d3300 ;
-    text-decoration: none;
-    
 }
-.link-list a:hover {
-    background-color: rgb(66 28 40);
-    color: #fff;
-  }
